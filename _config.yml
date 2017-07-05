@@ -1,0 +1,108 @@
+# Site settings
+title: WenfengZhuo's CV
+description: WenfengZhuo's CV
+favicon: /assets/img/me.png
+baseurl:
+url: http://127.0.0.1:4000
+rss_url: /pages/atom.xml
+google_analytics:
+
+# Build settings
+markdown: kramdown
+
+exclude: [vendor]
+
+# Author settings
+author:
+  name: Wenfeng Zhuo
+  title: Software Engineer
+  address: San Francisco, CA
+  email: wenfengzhuo@gmail.com
+  link:
+  weibo:
+  github: wenfengzhuo
+  linkedin: wenfengzhuo
+  twitter: zwf_columbia
+  gavatar: /resumecard/assets/img/me.png
+  stackoverflow:
+#  stackoverflow: 4582127
+  workHistory:
+    - work1:
+      company: Quantcast
+      location: San Francisco, CA
+      title: Software Engineer
+      started: 2017
+      duration: (2017.05 - Present)
+      description: Help to build the infrastructure to support more faster and accurate modeling training.
+        Work in depth to bring more capabilities in existing RTB (real-time bidding) digital advertising platform.
+    - work2:
+      company: Marin Software
+      location: Shanghai, China
+      title: Software Engineer
+      started: 2014
+      duration: (2014 - 2016)
+      description: Improved existing system with 10 times faster speed (measured by processing time per job) by using
+        asynchronous and message-driven design and implementation. Designed and implemented brand-new backend systems and micro-services that are extensible and
+        robust by introducing some best practices of software design patterns.
+    - work3:
+      company: Microsoft, Cisco System, HP Software
+      location: Shanghai, China
+      title: Software Engineer Intern
+      started: 2012
+      duration: (2012 - 2014)
+      description: Internship experience across different companies - Microsoft, Cisco System, HP Software. Learned a lot of
+        industry pratical knowledge during the experience.
+  educationHistory:
+    - education1:
+      organization: Columbia University
+      location: New York, US
+      degree: Master
+      major: Applied Analytics
+      started: 2016
+      duration: (2016 - 2017)
+      description: Learned how to define and frame analytical problems, how to
+        decide which data are collected and what analyses should be performed,
+        and how to communicate and work with analysts on solutions that are
+        technically sound as well as valuable to the organization.
+    - education2:
+      organization: East China Normal University
+      location: Shanghai, China
+      degree: Bachelor
+      major: Software Engineering
+      started: 2010
+      duration: (2010 - 2014)
+      description: Learned fundamentals of computer science, software development,
+        data structures and algorithms, large scale system, multiple programming
+        languages, and many other technologies.
+  languages:
+    - language1:
+      name: English
+      proficiency: Professional
+    - language2:
+      name: Chinese
+      proficiency: Native
+  programmingSkills:
+    - skill1:
+      name: Java
+      percentage: 90%
+    - skill2:
+      name: JavaScript
+      percentage: 70%
+    - skill3:
+      name: R
+      percentage: 60%
+    - skill4:
+      name: Python
+      percentage: 30%
+    - skill5:
+      name: Backend Development
+      percentage: 100%
+    - skill6:
+      name: Big Data
+      percentage: 90%
+    - skill7:
+      name: Distributed System
+      percentage: 90%
+    - skill8:
+      name: Data Analytics
+      percentage: 80%
