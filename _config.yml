@@ -2,8 +2,8 @@
 title: WenfengZhuo's CV
 description: WenfengZhuo's CV
 favicon: /assets/img/me.png
-baseurl:
-url: http://127.0.0.1:4000
+baseurl: http://wenfengzhuo.github.io/visualresume
+url: http://wenfengzhuo.github.io/visualresume
 rss_url: /pages/atom.xml
 google_analytics:
 
